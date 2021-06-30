@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DDAD7C6F2685905500EF8BB1 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAD7C6E2685905500EF8BB1 /* MainPageViewController.swift */; };
+		DDB77567268C852200326073 /* Test.app in Resources */ = {isa = PBXBuildFile; fileRef = DDDCA9CB2681E64D00EA8832 /* Test.app */; };
 		DDDCA9CF2681E64D00EA8832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDCA9CE2681E64D00EA8832 /* AppDelegate.swift */; };
 		DDDCA9D12681E64D00EA8832 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDCA9D02681E64D00EA8832 /* SceneDelegate.swift */; };
 		DDDCA9D32681E64D00EA8832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDCA9D22681E64D00EA8832 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DDAD7C6E2685905500EF8BB1 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		DDB418EF268C7E8900CCEFF2 /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDCA9CB2681E64D00EA8832 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDDCA9CE2681E64D00EA8832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDDCA9D02681E64D00EA8832 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -27,6 +31,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		DDB418EC268C7E8900CCEFF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DDDCA9C82681E64D00EA8832 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -49,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				DDDCA9CB2681E64D00EA8832 /* Test.app */,
+				DDB418EF268C7E8900CCEFF2 /* test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +75,7 @@
 				DDDCA9D72681E64F00EA8832 /* Assets.xcassets */,
 				DDDCA9D92681E64F00EA8832 /* LaunchScreen.storyboard */,
 				DDDCA9DC2681E64F00EA8832 /* Info.plist */,
+				DDAD7C6E2685905500EF8BB1 /* MainPageViewController.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -70,6 +83,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		DDB418EE268C7E8900CCEFF2 /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB41902268C7E8C00CCEFF2 /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				DDB418EB268C7E8900CCEFF2 /* Sources */,
+				DDB418EC268C7E8900CCEFF2 /* Frameworks */,
+				DDB418ED268C7E8900CCEFF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = DDB418EF268C7E8900CCEFF2 /* test.app */;
+			productType = "com.apple.product-type.application";
+		};
 		DDDCA9CA2681E64D00EA8832 /* Test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDDCA9DF2681E64F00EA8832 /* Build configuration list for PBXNativeTarget "Test" */;
@@ -96,6 +126,9 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					DDB418EE268C7E8900CCEFF2 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
 					DDDCA9CA2681E64D00EA8832 = {
 						CreatedOnToolsVersion = 12.5;
 					};
@@ -115,11 +148,19 @@
 			projectRoot = "";
 			targets = (
 				DDDCA9CA2681E64D00EA8832 /* Test */,
+				DDB418EE268C7E8900CCEFF2 /* test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		DDB418ED268C7E8900CCEFF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DDDCA9C92681E64D00EA8832 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -127,16 +168,25 @@
 				DDDCA9DB2681E64F00EA8832 /* LaunchScreen.storyboard in Resources */,
 				DDDCA9D82681E64F00EA8832 /* Assets.xcassets in Resources */,
 				DDDCA9D62681E64D00EA8832 /* Main.storyboard in Resources */,
+				DDB77567268C852200326073 /* Test.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		DDB418EB268C7E8900CCEFF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DDDCA9C72681E64D00EA8832 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDAD7C6F2685905500EF8BB1 /* MainPageViewController.swift in Sources */,
 				DDDCA9D32681E64D00EA8832 /* ViewController.swift in Sources */,
 				DDDCA9CF2681E64D00EA8832 /* AppDelegate.swift in Sources */,
 				DDDCA9D12681E64D00EA8832 /* SceneDelegate.swift in Sources */,
@@ -165,6 +215,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		DDB41900268C7E8C00CCEFF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75U4LG286R;
+				INFOPLIST_FILE = test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jeonjeunggeo.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDB41901268C7E8C00CCEFF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 75U4LG286R;
+				INFOPLIST_FILE = test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jeonjeunggeo.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		DDDCA9DD2681E64F00EA8832 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -284,7 +372,6 @@
 		DDDCA9E02681E64F00EA8832 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75U4LG286R;
@@ -303,7 +390,6 @@
 		DDDCA9E12681E64F00EA8832 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 75U4LG286R;
@@ -322,6 +408,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		DDB41902268C7E8C00CCEFF2 /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB41900268C7E8C00CCEFF2 /* Debug */,
+				DDB41901268C7E8C00CCEFF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DDDCA9C62681E64D00EA8832 /* Build configuration list for PBXProject "Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
